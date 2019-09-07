@@ -25,6 +25,7 @@ exports.postSignUp = async (req, res) => {
 
   res.redirect('/')
 }
+
 exports.getLogin = (req, res) => {
   res.render('auth/login')
 }
